@@ -19,6 +19,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 40px;
+  grid-column-gap: 80px; //espaço entre as colunas direita e esquerda da página
 }
 
 .navbar-container {
@@ -148,6 +149,61 @@ body {
 .span-level {
   font-size: 1.4rem;
   margin-left: 4px;
+}
+
+/* Coluna da previsão semanal*/
+
+.title-weekly {
+  color: #232323;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.weekly-forecast-container {
+  background: rgb(236, 234, 234);
+  border-radius: 40px;
+  padding: 40px;
+}
+
+.weekly-forecast-container .weekly-forecast-itens {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+.weekly-forecast-container .weekly-forecast-itens > p {
+  font-weight: 500;
+  color: #8f8f8f;
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.weekly-forecast-container .weekly-forecast-itens > div {
+  display: flex;
+  align-items: center;
+  color: #8f8f8f;
+  font-weight: 400;
+  font-size: 1.4rem;
+  gap: 30px;
+}
+
+.weekly-forecast-itens > img {
+  width: 75px;
+  height: 75px;
+  margin-left: 10px;
+}
+
+.weekly-forecast-container
+  .weekly-forecast-itens
+  > p
+  .weekly-forecast-itens
+  > img
+  .weekly-forecast-container
+  .weekly-forecast-itens
+  > div {
+  flex: 1;
 }
 
 /* Utilitários */
