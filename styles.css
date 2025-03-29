@@ -19,7 +19,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 40px;
-  grid-column-gap: 80px; //espaço entre as colunas direita e esquerda da página
+  grid-column-gap: 80px; /*espaço entre as colunas direita e esquerda da página*/
 }
 
 .navbar-container {
