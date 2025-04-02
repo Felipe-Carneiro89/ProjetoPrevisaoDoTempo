@@ -1,0 +1,194 @@
+@media (max-width: 1024px) {
+  * {
+    box-sizing: border-box;
+    font-family: "Tinos", sans-serif;
+  }
+
+  html {
+    background-color: #e2eaf5;
+  }
+
+  .app-container {
+    grid-template-columns: 100%;
+    padding: 20px;
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+  }
+
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-container > img {
+    width: 150px;
+    height: 30px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .custons-input {
+    width: 400px;
+  }
+
+  .showcase-container {
+    display: flex;
+    justify-content: center;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .showcase-container .showcase-container-text > h2:first-child {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #2a394f;
+  }
+
+  .showcase-container .showcase-container-text > h2:last-child {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #2a394f;
+  }
+
+  .showcase-container .showcase-container-text > p {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+
+  .showcase-container > img {
+    width: auto;
+    margin-left: 30px;
+  }
+
+  .hourly-forecast-container {
+    border-radius: 40px;
+    padding: 20px;
+    background: linear-gradient(90.28deg, #007dfe 0.22%, #3aa2ff 99.76%);
+    box-shadow: 0px 30px 50px -19px rgba(1, 126, 254, 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+  }
+
+  .hourly-forecast-container-itens-hour {
+    color: #fff;
+    opacity: 85%;
+    font-weight: 600;
+  }
+
+  .hourly-forecast-container-itens-temp {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-style: oblique;
+  }
+
+  .hourly-forecast-container-itens-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .info-boxes {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 15px; */
+    justify-items: center;
+  }
+
+  .info-boxes-itens {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    width: 180px;
+  }
+
+  .info-boxes .info-boxes-itens > p:first-child {
+    color: #8f8f8f;
+    font-weight: 800;
+  }
+
+  .info-boxes .info-boxes-itens > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-boxes .info-boxes-itens > div > p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2a394f;
+    margin-left: 4px;
+  }
+
+  .info-boxes .info-boxes-itens > div > img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .span-km {
+    font-size: 1.2rem;
+    margin-left: 4px;
+  }
+  .span-level {
+    font-size: 1.4rem;
+    margin-left: 4px;
+  }
+
+  .title-weekly {
+    color: #232323;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .weekly-forecast-container {
+    background: rgb(236, 234, 234);
+    border-radius: 40px;
+    padding: 40px;
+  }
+
+  .weekly-forecast-container .weekly-forecast-itens {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+  }
+
+  .weekly-forecast-container .weekly-forecast-itens > p {
+    font-weight: 500;
+    color: #8f8f8f;
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+
+  .weekly-forecast-container .weekly-forecast-itens > div {
+    display: flex;
+    align-items: center;
+    color: #8f8f8f;
+    font-weight: 400;
+    font-size: 1.4rem;
+    gap: 30px;
+  }
+
+  .weekly-forecast-itens > img {
+    width: 75px;
+    height: 75px;
+    margin-left: 10px;
+  }
+
+  .weekly-forecast-container
+    .weekly-forecast-itens
+    > p
+    .weekly-forecast-itens
+    > img
+    .weekly-forecast-container
+    .weekly-forecast-itens
+    > div {
+    flex: 1;
+  }
+}
